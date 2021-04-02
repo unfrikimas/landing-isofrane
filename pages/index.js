@@ -1,75 +1,39 @@
 import Head from "next/head";
 
-export default function Home() {
-  return (
-    <main className="dark:bg-gray-800 bg-white relative overflow-hidden h-screen">
-      <header className="h-24 sm:h-32 flex items-center z-30 w-full">
-        <div className="container mx-auto px-6 flex items-center justify-between">
-          <div className="uppercase text-gray-800 dark:text-white font-black text-3xl">
-            Watch.ME
-          </div>
-          <div className="flex items-center">
-            <nav className="font-sen text-gray-800 dark:text-white uppercase text-lg lg:flex items-center hidden">
-              <a href="#" className="py-2 px-6 flex">
-                Home
-              </a>
-              <a href="#" className="py-2 px-6 flex">
-                Watch
-              </a>
-              <a href="#" className="py-2 px-6 flex">
-                Product
-              </a>
-              <a href="#" className="py-2 px-6 flex">
-                Contact
-              </a>
-              <a href="#" className="py-2 px-6 flex">
-                Carrer
-              </a>
-            </nav>
-            <button className="lg:hidden flex flex-col ml-4">
-              <span className="w-6 h-1 bg-gray-800 dark:bg-white mb-1"></span>
-              <span className="w-6 h-1 bg-gray-800 dark:bg-white mb-1"></span>
-              <span className="w-6 h-1 bg-gray-800 dark:bg-white mb-1"></span>
-            </button>
-          </div>
-        </div>
-      </header>
-      <div className="bg-white dark:bg-gray-800 flex relative z-20 items-center overflow-hidden">
-        <div className="container mx-auto px-6 flex relative py-16">
-          <div className="sm:w-2/3 lg:w-2/5 flex flex-col relative z-20">
-            <span className="w-20 h-2 bg-gray-800 dark:bg-white mb-12"></span>
-            <h1 className="font-bebas-neue uppercase text-6xl sm:text-8xl font-black flex flex-col leading-none dark:text-white text-gray-800">
-              Be on
-              <span className="text-5xl sm:text-7xl">Time</span>
-            </h1>
-            <p className="text-sm sm:text-base text-gray-700 dark:text-white">
-              Dimension of reality that makes change possible and
-              understandable. An indefinite and homogeneous environment in which
-              natural events and human existence take place.
-            </p>
-            <div className="flex mt-8">
-              <a
-                href="#"
-                className="uppercase py-2 px-4 rounded-lg bg-pink-500 border-2 border-transparent text-white text-md mr-4 hover:bg-pink-400"
-              >
-                Get started
-              </a>
-              <a
-                href="#"
-                className="uppercase py-2 px-4 rounded-lg bg-transparent border-2 border-pink-500 text-pink-500 dark:text-white hover:bg-pink-500 hover:text-white text-md"
-              >
-                Read more
-              </a>
-            </div>
-          </div>
-          <div className="hidden sm:block sm:w-1/3 lg:w-3/5 relative">
-            <img
-              src="/images/10.png"
-              className="max-w-xs md:max-w-sm m-auto"
-            />
-          </div>
+const Home = () => {
+  return (  
+
+    <section className="contenedor__movil">
+      <picture className="imagen-principal">
+        <img src="https://res.cloudinary.com/petportrait/image/upload/v1617372924/carlosenriquedev/Orange-Isofrane-Style-Rubber-Diving-watch-bands-strap_clry78.jpg" alt="Isofrane Watch Strap" />
+      </picture>
+      <div className="titulo">
+        <h1>ISOFRANE STYLE</h1>
+        <h2>Watch Strap</h2>
+      </div>
+      <div className="contenedor__cta">
+        <div className="precio">
+          <p>$59.99</p>
+          <h3>$26</h3>
+          <div className="boton">+</div>
         </div>
       </div>
-    </main>
+      <div className="texto-principal">
+        <h2>Best Diving Watch Strap</h2>
+        <p>The silicone strap has a vintage OMEGA look from the 60s and 70s with a bevy of modern features like the high-end heavy buckle and safety handle.
+        </p>
+        <p>This strap material and design has become very popular in water sports, this rubber-Silicon adapts, it does not damage when it spends a long time exposed to different factors such as salt water, fresh water and the sun. Heat resistant waterproofing material.
+        </p>
+        <p>LUX WACTH STRAPS provides you with this Isofrane Style model, it is resistant, durable and flexible. This Silicone Rubber is very durable and overall, has good mechanical properties.</p>
+      </div>
+      <div className="imagenes-correa">
+        <picture>
+          <img src="https://res.cloudinary.com/petportrait/image/upload/v1617378910/carlosenriquedev/lux_isofrane_style_watch_band-orange_uhfmfw.png" alt="isofrane style watch straps" />
+        </picture>
+      </div>
+    </section>
+
   );
 }
+ 
+export default Home;
