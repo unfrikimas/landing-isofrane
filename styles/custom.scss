@@ -43,6 +43,7 @@
 
     .contenedor__cta {   
         padding: 0 20px;
+        
 
         .precio {
             background-color: #ec1b24;
@@ -51,9 +52,10 @@
             justify-content: space-around;
             align-items: center;
             margin-top: -38px;
+            box-shadow: var(--shadow-md);
 
             p {
-                font-family: Roboto;
+                font-family: "Roboto", sans-serif;
                 font-style: normal;
                 font-weight: bold;
                 font-size: 24px;
@@ -64,19 +66,34 @@
             }
 
             h3 {
-                font-family: Roboto;
+                font-family: "Roboto", sans-serif;
                 font-style: normal;
                 font-weight: bold;
-                font-size: 32px;
+                font-size: 50px;
                 line-height: 37px;
                 letter-spacing: -0.005em;
-                color: white;              
+                color: white;
+                
+                sup {
+                    font-weight: 300;
+                    font-size: 24px;
+                }
+            }
+
+            a {
+                font-family: "Roboto", sans-serif;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 28px;
+                letter-spacing: -0.005em;
+                color: white;
             }
         }
     }
 
     .texto-principal {
-        font-family: Roboto;
+        font-family: "Roboto", sans-serif;
         font-style: normal;
         font-weight: 500;
         font-size: 18px;
@@ -114,6 +131,115 @@
                 object-fit: contain;
                 object-position: center;
             }
+        }
+    }
+
+    .texto-detalles {
+        font-family: "Roboto", sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 26px;
+        letter-spacing: -0.005em;
+        color: #636262;
+        padding: 66px 20px 96px 20px;
+
+        h2 {
+            font-weight: bold;
+            font-size: 24px;
+            padding-bottom: 15px;
+        }
+
+        p {
+            padding-bottom: 15px;
+        }
+
+        span {
+            font-weight: bold;
+        }
+    }
+
+    .footer {
+        position: relative;
+        z-index: -1;
+        width: 100%;
+        background-color: #3a373e;
+        padding: 105px 20px 60px 20px;
+        margin: 0 auto;
+        margin-top: -45px;
+
+        .badgets {
+            width: 100%;
+            padding-bottom: 60px;
+            display: flow-root;
+        }
+
+        h3 {
+            position: relative;
+            color: white;
+            font-family: "Roboto", sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 26px;
+            letter-spacing: -0.005em;
+            text-align: center;
+            padding-bottom: 10px;
+            sup {
+                font-weight: 300;
+                font-size: 12px;
+                padding-right: 2px;
+            }
+        }
+
+        p {
+            color: white;
+            font-family: "Roboto", sans-serif;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 10px;
+            line-height: 26px;
+            letter-spacing: -0.005em;
+            text-align: center;
+            padding-bottom: 10px;
+        }
+    }
+
+    .logo {
+        padding: 65px 20px 35px 20px;
+        background-color: white;
+
+        picture {
+            width: 100%;
+
+            img {
+                display: block;
+                margin: 0 auto;
+            }
+        }
+    }
+    .copyright {
+        padding-bottom: 40px;
+
+        picture {
+            width: 100%;
+            padding: 0 20px;
+
+            img {
+                width: 90%;
+                display: block;
+                margin: 0 auto;
+            }
+        }
+
+        p {
+            font-family: "Roboto", sans-serif;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 12px;
+            line-height: 16px;
+            letter-spacing: -0.005em;
+            text-align: center;
         }
     }
 
