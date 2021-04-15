@@ -31,9 +31,9 @@ const Home = () => {
           </picture>
           <picture>
             <img 
-              src="https://res.cloudinary.com/petportrait/image/upload/v1618489930/carlosenriquedev/Orange-Isofrane-Style-Rubber-Diving-watch-bands-strap_stiojb.jpg" 
+              src="https://res.cloudinary.com/petportrait/image/upload/v1618491558/carlosenriquedev/Blue-Isofrane-Style-Rubber-Diving-watch-bands-strap_j554qt.jpg" 
               alt="Isofrane Watch Strap"
-              onClick={() => setImagenPrincipal("https://res.cloudinary.com/petportrait/image/upload/v1618489930/carlosenriquedev/Orange-Isofrane-Style-Rubber-Diving-watch-bands-strap_stiojb.jpg")}
+              onClick={() => setImagenPrincipal("https://res.cloudinary.com/petportrait/image/upload/v1618491558/carlosenriquedev/Blue-Isofrane-Style-Rubber-Diving-watch-bands-strap_j554qt.jpg")}
             />
           </picture>
         </Carousel>
