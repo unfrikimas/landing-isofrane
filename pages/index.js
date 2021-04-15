@@ -1,13 +1,43 @@
+import { useState } from "react";
 import Head from "next/head";
 import IconShop from "../components/IconShop";
+import Carousel from 'react-elastic-carousel'
 
 const Home = () => {
+
+  const [imagenPrincipal, setImagenPrincipal] = useState("https://res.cloudinary.com/petportrait/image/upload/v1618489930/carlosenriquedev/Orange-Isofrane-Style-Rubber-Diving-watch-bands-strap_stiojb.jpg")
+
   return (  
 
     <section className="contenedor__movil">
       <picture className="imagen-principal">
-        <img src="https://res.cloudinary.com/petportrait/image/upload/v1617372924/carlosenriquedev/Orange-Isofrane-Style-Rubber-Diving-watch-bands-strap_clry78.jpg" alt="Isofrane Watch Strap" />
+        <img src={imagenPrincipal} alt="Isofrane Watch Strap" />
       </picture>
+      <div className="fotos-personas">
+        <Carousel itemsToScroll={1} itemsToShow={3}>
+          <picture>
+            <img 
+              src="https://res.cloudinary.com/petportrait/image/upload/v1618489930/carlosenriquedev/Orange-Isofrane-Style-Rubber-Diving-watch-bands-strap_stiojb.jpg" 
+              alt="Isofrane Watch Strap"
+              onClick={() => setImagenPrincipal("https://res.cloudinary.com/petportrait/image/upload/v1618489930/carlosenriquedev/Orange-Isofrane-Style-Rubber-Diving-watch-bands-strap_stiojb.jpg")}
+            />
+          </picture>
+          <picture>
+            <img 
+              src="https://res.cloudinary.com/petportrait/image/upload/v1618489930/carlosenriquedev/Black-Isofrane-Style-Rubber-Diving-watch-bands-strap_tkfz2y.jpg" 
+              alt="Isofrane Watch Strap" 
+              onClick={() => setImagenPrincipal("https://res.cloudinary.com/petportrait/image/upload/v1618489930/carlosenriquedev/Black-Isofrane-Style-Rubber-Diving-watch-bands-strap_tkfz2y.jpg")}
+            />
+          </picture>
+          <picture>
+            <img 
+              src="https://res.cloudinary.com/petportrait/image/upload/v1618489930/carlosenriquedev/Orange-Isofrane-Style-Rubber-Diving-watch-bands-strap_stiojb.jpg" 
+              alt="Isofrane Watch Strap"
+              onClick={() => setImagenPrincipal("https://res.cloudinary.com/petportrait/image/upload/v1618489930/carlosenriquedev/Orange-Isofrane-Style-Rubber-Diving-watch-bands-strap_stiojb.jpg")}
+            />
+          </picture>
+        </Carousel>
+      </div>
       <div className="titulo">
         <h1>ISOFRANE STYLE</h1>
         <h2>Watch Strap</h2>
@@ -33,11 +63,24 @@ const Home = () => {
         </p>
         <p>LUX WACTH STRAPS provides you with this Isofrane Style model, it is resistant, durable and flexible. This Silicone Rubber is very durable and overall, has good mechanical properties.</p>
       </div>
+
       <div className="imagenes-correa">
-        <picture>
-          <img src="https://res.cloudinary.com/petportrait/image/upload/v1617378910/carlosenriquedev/lux_isofrane_style_watch_band-orange_uhfmfw.png" alt="isofrane style watch straps" />
-        </picture>
+        <Carousel itemsToScroll={1} itemsToShow={1}>
+          <picture>
+            <img src="https://res.cloudinary.com/petportrait/image/upload/v1618475860/carlosenriquedev/lux_isofrane_style_watch_band-black_hgtsqn.jpg" alt="isofrane style watch straps" />
+          </picture>
+          <picture>
+            <img src="https://res.cloudinary.com/petportrait/image/upload/v1618475860/carlosenriquedev/lux_isofrane_style_watch_band-orange_flfrsp.jpg" alt="isofrane style watch straps" />
+          </picture>
+          <picture>
+            <img src="https://res.cloudinary.com/petportrait/image/upload/v1618475860/carlosenriquedev/lux_isofrane_style_watch_band-blue_ijcpne.jpg" alt="isofrane style watch straps" />
+          </picture>
+          <picture>
+            <img src="https://res.cloudinary.com/petportrait/image/upload/v1618475860/carlosenriquedev/lux_isofrane_style_watch_band-yellow_yho2wi.jpg" alt="isofrane style watch straps" />
+          </picture>
+        </Carousel>
       </div>
+
       <div className="texto-detalles">
         <h2>Especifications</h2>
         <p>
