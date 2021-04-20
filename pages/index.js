@@ -36,6 +36,13 @@ const Home = () => {
               onClick={() => setImagenPrincipal("https://res.cloudinary.com/petportrait/image/upload/v1618491558/carlosenriquedev/Blue-Isofrane-Style-Rubber-Diving-watch-bands-strap_j554qt.jpg")}
             />
           </picture>
+          <picture>
+            <img 
+              src="https://res.cloudinary.com/petportrait/image/upload/v1618925414/carlosenriquedev/Yellow-Isofrane-Style-Rubber-Diving-watch-bands-strap_pbkkug.jpg" 
+              alt="Isofrane Watch Strap"
+              onClick={() => setImagenPrincipal("https://res.cloudinary.com/petportrait/image/upload/v1618925414/carlosenriquedev/Yellow-Isofrane-Style-Rubber-Diving-watch-bands-strap_pbkkug.jpg")}
+            />
+          </picture>
         </Carousel>
       </div>
       <div className="titulo">
@@ -59,9 +66,9 @@ const Home = () => {
         <h2>Best Diving Watch Strap</h2>
         <p>The silicone strap has a vintage OMEGA look from the 60s and 70s with a bevy of modern features like the high-end heavy buckle and safety handle.
         </p>
-        <p>This strap material and design has become very popular in water sports, this rubber-Silicon adapts, it does not damage when it spends a long time exposed to different factors such as salt water, fresh water and the sun. Heat resistant waterproofing material.
+        <p>This strap material and design has become very popular in water sports, this Rubber-Silicon adapts, it does not damage when it spends a long time exposed to different factors such as salt water, fresh water and the sun.
         </p>
-        <p>LUX WACTH STRAPS provides you with this Isofrane Style model, it is resistant, durable and flexible. This Silicone Rubber is very durable and overall, has good mechanical properties.</p>
+        <p>Lux Watch Straps provides you with this Isofrane Style model, it is resistant, durable and flexible. This silicone rubber is very durable and overall, has good mechanical properties.</p>
       </div>
 
       <div className="imagenes-correa">
@@ -111,6 +118,8 @@ const Home = () => {
         </p>
         <p>
           100% Waterproof / Water- Resistant 
+        </p>
+        <p>
           Non-Allergenic/Hypoallergenic
         </p>
       </div>
