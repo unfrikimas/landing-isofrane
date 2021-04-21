@@ -3,9 +3,36 @@ import Head from "next/head";
 import IconShop from "../components/IconShop";
 import Carousel from 'react-elastic-carousel'
 
+const CORREAS = {
+  naranja: {
+    url: "https://res.cloudinary.com/petportrait/image/upload/v1618489930/carlosenriquedev/Orange-Isofrane-Style-Rubber-Diving-watch-bands-strap_stiojb.jpg"
+  },
+  naranja2: {
+    url: "https://res.cloudinary.com/petportrait/image/upload/v1619017765/carlosenriquedev/Isofrane-Style-Rubber-Diving-watch-bands-strap-6_ry9iti.jpg"
+  },
+  negra : {
+    url: "https://res.cloudinary.com/petportrait/image/upload/v1618489930/carlosenriquedev/Black-Isofrane-Style-Rubber-Diving-watch-bands-strap_tkfz2y.jpg"
+  },
+  negra2 : {
+    url: "https://res.cloudinary.com/petportrait/image/upload/v1619017765/carlosenriquedev/Isofrane-Style-Rubber-Diving-watch-bands-strap-10_j2sclk.jpg"
+  },
+  azul: {
+    url: "https://res.cloudinary.com/petportrait/image/upload/v1618491558/carlosenriquedev/Blue-Isofrane-Style-Rubber-Diving-watch-bands-strap_j554qt.jpg"
+  },
+  azul2: {
+    url: "https://res.cloudinary.com/petportrait/image/upload/v1619022953/carlosenriquedev/Isofrane-Style-Rubber-Diving-watch-bands-strap-1_orwvec.jpg"
+  },
+  amarilla: {
+    url: "https://res.cloudinary.com/petportrait/image/upload/v1619023094/carlosenriquedev/Isofrane-Style-Rubber-Diving-watch-bands-strap-2_pz4t6z.jpg"
+  },
+  amarilla2: {
+    url: "https://res.cloudinary.com/petportrait/image/upload/v1619017766/carlosenriquedev/Isofrane-Style-Rubber-Diving-watch-bands-strap-12_kttgnt.jpg"
+  }
+}
+
 const Home = () => {
 
-  const [imagenPrincipal, setImagenPrincipal] = useState("https://res.cloudinary.com/petportrait/image/upload/v1618489930/carlosenriquedev/Orange-Isofrane-Style-Rubber-Diving-watch-bands-strap_stiojb.jpg")
+  const [imagenPrincipal, setImagenPrincipal] = useState(CORREAS.naranja.url)
 
   return (  
 
@@ -17,30 +44,56 @@ const Home = () => {
         <Carousel itemsToScroll={1} itemsToShow={3}>
           <picture>
             <img 
-              src="https://res.cloudinary.com/petportrait/image/upload/v1618489930/carlosenriquedev/Orange-Isofrane-Style-Rubber-Diving-watch-bands-strap_stiojb.jpg" 
+              src={CORREAS.naranja.url} 
               alt="Isofrane Watch Strap"
-              onClick={() => setImagenPrincipal("https://res.cloudinary.com/petportrait/image/upload/v1618489930/carlosenriquedev/Orange-Isofrane-Style-Rubber-Diving-watch-bands-strap_stiojb.jpg")}
+              onClick={() => setImagenPrincipal(CORREAS.naranja.url)}
             />
           </picture>
           <picture>
             <img 
-              src="https://res.cloudinary.com/petportrait/image/upload/v1618489930/carlosenriquedev/Black-Isofrane-Style-Rubber-Diving-watch-bands-strap_tkfz2y.jpg" 
+              src={CORREAS.naranja2.url} 
+              alt="Isofrane Watch Strap"
+              onClick={() => setImagenPrincipal(CORREAS.naranja2.url)}
+            />
+          </picture>
+          <picture>
+            <img 
+              src={CORREAS.negra.url} 
               alt="Isofrane Watch Strap" 
-              onClick={() => setImagenPrincipal("https://res.cloudinary.com/petportrait/image/upload/v1618489930/carlosenriquedev/Black-Isofrane-Style-Rubber-Diving-watch-bands-strap_tkfz2y.jpg")}
+              onClick={() => setImagenPrincipal(CORREAS.negra.url)}
             />
           </picture>
           <picture>
             <img 
-              src="https://res.cloudinary.com/petportrait/image/upload/v1618491558/carlosenriquedev/Blue-Isofrane-Style-Rubber-Diving-watch-bands-strap_j554qt.jpg" 
-              alt="Isofrane Watch Strap"
-              onClick={() => setImagenPrincipal("https://res.cloudinary.com/petportrait/image/upload/v1618491558/carlosenriquedev/Blue-Isofrane-Style-Rubber-Diving-watch-bands-strap_j554qt.jpg")}
+              src={CORREAS.negra2.url} 
+              alt="Isofrane Watch Strap" 
+              onClick={() => setImagenPrincipal(CORREAS.negra2.url)}
             />
           </picture>
           <picture>
             <img 
-              src="https://res.cloudinary.com/petportrait/image/upload/v1618925414/carlosenriquedev/Yellow-Isofrane-Style-Rubber-Diving-watch-bands-strap_pbkkug.jpg" 
+              src={CORREAS.azul.url} 
               alt="Isofrane Watch Strap"
-              onClick={() => setImagenPrincipal("https://res.cloudinary.com/petportrait/image/upload/v1618925414/carlosenriquedev/Yellow-Isofrane-Style-Rubber-Diving-watch-bands-strap_pbkkug.jpg")}
+              onClick={() => setImagenPrincipal(CORREAS.azul.url)}
+            />
+          </picture>
+          <picture>
+            <img 
+              src={CORREAS.azul2.url} 
+              alt="Isofrane Watch Strap"
+              onClick={() => setImagenPrincipal(CORREAS.azul2.url)}
+            />
+          </picture>
+          <picture>
+            <img 
+              src={CORREAS.amarilla.url}
+              onClick={() => setImagenPrincipal(CORREAS.amarilla.url)}
+            />
+          </picture>
+          <picture>
+            <img 
+              src={CORREAS.amarilla2.url}
+              onClick={() => setImagenPrincipal(CORREAS.amarilla2.url)}
             />
           </picture>
         </Carousel>
@@ -114,7 +167,7 @@ const Home = () => {
         </p>
         <p>
           <span>Sizes:</span><br></br>
-          18mm, 20mm, 22mm, 24mm
+          20mm, 22mm, 24mm
         </p>
         <p>
           100% Waterproof / Water- Resistant 
