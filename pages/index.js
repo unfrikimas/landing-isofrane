@@ -116,29 +116,18 @@ const Home = () => {
       </div>
 
       <div className="texto-principal">
-        <h2>Best Diving Watch Strap</h2>
-        <p>The silicone strap has a vintage OMEGA look from the 60s and 70s with a bevy of modern features like the high-end heavy buckle and safety handle.
+        <h2>Best Rubber Watch Strap</h2>
+        <p>The 1968 is a modern take on the famous 1960s ISOfrane watch straps. It has contemporary touches like silicone-free rubber that’s far softer and more durable than the strap of old.
         </p>
-        <p>This strap material and design has become very popular in water sports, this Rubber-Silicon adapts, it does not damage when it spends a long time exposed to different factors such as salt water, fresh water and the sun.
+        <p>This strap material and design has become very popular in water sports, this Rubber adapts, it does not damage when it spends a long time exposed to different factors such as salt water, fresh water and the sun.
         </p>
-        <p>Lux Watch Straps provides you with this Isofrane Style model, it is resistant, durable and flexible. This silicone rubber is very durable and overall, has good mechanical properties.</p>
+        <p>Lux Watch Straps provides you with this ISOfrane Style model, it is resistant, durable and flexible. This silicone rubber is very durable and overall, has good mechanical properties.</p>
       </div>
 
-      <div className="imagenes-correa">
-        <Carousel itemsToScroll={1} itemsToShow={1}>
-          <picture>
-            <img src="https://res.cloudinary.com/petportrait/image/upload/v1618475860/carlosenriquedev/lux_isofrane_style_watch_band-black_hgtsqn.jpg" alt="isofrane style watch straps" />
-          </picture>
-          <picture>
-            <img src="https://res.cloudinary.com/petportrait/image/upload/v1618475860/carlosenriquedev/lux_isofrane_style_watch_band-orange_flfrsp.jpg" alt="isofrane style watch straps" />
-          </picture>
-          <picture>
-            <img src="https://res.cloudinary.com/petportrait/image/upload/v1618475860/carlosenriquedev/lux_isofrane_style_watch_band-blue_ijcpne.jpg" alt="isofrane style watch straps" />
-          </picture>
-          <picture>
-            <img src="https://res.cloudinary.com/petportrait/image/upload/v1618475860/carlosenriquedev/lux_isofrane_style_watch_band-yellow_yho2wi.jpg" alt="isofrane style watch straps" />
-          </picture>
-        </Carousel>
+      <div className="video">
+        <video loop controls>
+          <source src="https://res.cloudinary.com/petportrait/video/upload/v1619077363/carlosenriquedev/20210421161258_HD_comprimido_m4rckm.mp4" type="video/mp4"/>
+        </video>
       </div>
 
       <div className="texto-detalles">
@@ -175,6 +164,23 @@ const Home = () => {
         <p>
           Non-Allergenic/Hypoallergenic
         </p>
+      </div>      
+
+      <div className="imagenes-correa">
+        <Carousel itemsToScroll={1} itemsToShow={1}>
+          <picture>
+            <img src="https://res.cloudinary.com/petportrait/image/upload/v1618475860/carlosenriquedev/lux_isofrane_style_watch_band-black_hgtsqn.jpg" alt="isofrane style watch straps" />
+          </picture>
+          <picture>
+            <img src="https://res.cloudinary.com/petportrait/image/upload/v1618475860/carlosenriquedev/lux_isofrane_style_watch_band-orange_flfrsp.jpg" alt="isofrane style watch straps" />
+          </picture>
+          <picture>
+            <img src="https://res.cloudinary.com/petportrait/image/upload/v1618475860/carlosenriquedev/lux_isofrane_style_watch_band-blue_ijcpne.jpg" alt="isofrane style watch straps" />
+          </picture>
+          <picture>
+            <img src="https://res.cloudinary.com/petportrait/image/upload/v1618475860/carlosenriquedev/lux_isofrane_style_watch_band-yellow_yho2wi.jpg" alt="isofrane style watch straps" />
+          </picture>
+        </Carousel>
       </div>
 
       <div className="contenedor__cta">
@@ -195,7 +201,6 @@ const Home = () => {
         </picture>
         <h3><sup>$</sup>2 Shipping USA</h3>
         <p>3-5 Business days for delivery</p>
-        <h3>International Shipping</h3>
       </div>
       <div className="logo">
         <picture>
