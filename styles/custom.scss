@@ -17,7 +17,7 @@
     .fotos-personas {
         margin-top: -50px;
         //padding: 0;
-        background-color: #3a373e;
+        background-color: white;
 
         picture {
             max-width: 100px;
@@ -27,7 +27,7 @@
                 width: 100%;
                 object-fit: cover;
                 object-position: center;
-                border: 1px solid white;
+                //border: 1px solid white;
                 cursor: pointer;
             }
 
@@ -39,7 +39,7 @@
             display: none;
         }
         .rec.rec-dot_active {
-            background-color: white;
+            background-color: gray;
             box-shadow: 0 0 1px 2px rgb(0 0 0 / 50%);
         }
         /* round buttons on hover */
@@ -60,30 +60,32 @@
 
     .titulo {
         width: 100%;
-        background-color: #3a373e;
-        padding: 25px 20px 55px 20px;
+        background-color: white;
+        padding: 25px 20px 0px 20px;
         margin: 0 auto;
 
         h1 {
             font-family: "Archivo Black", serif;
             font-style: normal;
             font-weight: normal;
-            font-size: 48px;
+            font-size: 3.5rem;
             line-height: 60px;
-            color: #ff703b;
+            color: #363636;
             text-align: center;
+            letter-spacing: 0.2rem;
         }
         h2 {
             font-family: "Roboto", serif;
             font-style: normal;
-            font-weight: normal;
+            font-weight: bold;
             font-size: 32px;
             line-height: 37px;           
             letter-spacing: -0.005em;
-            color: white;
+            color: #ed1c24;
             padding-top: 10px;
             padding-bottom: 30px;
             text-align: center;
+            letter-spacing: 0.15rem;
         }
     }
 
@@ -146,7 +148,7 @@
         line-height: 26px;
         letter-spacing: -0.005em;
         color: #636262;
-        padding: 50px 20px 50px 20px;
+        padding: 0px 20px 50px 20px;
 
         h2 {
             font-weight: bold;
@@ -161,6 +163,23 @@
         p:last-child {
             padding-bottom: 0;
         }
+    }
+
+    .shine-text {
+        padding: 0px 20px 30px 20px;
+
+            font-family: "Archivo Black", serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 3rem;
+            line-height: 50px;
+            text-align: center;
+            letter-spacing: 0.1rem;
+            background: linear-gradient(to right, #fdcc66, #ff9b63, #fa547c, #ffa7c7);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+
     }
 
     .video {
@@ -241,10 +260,15 @@
             font-weight: bold;
             font-size: 24px;
             padding-bottom: 15px;
+            text-align: center;
         }
 
         p {
-            padding-bottom: 15px;
+            border-bottom: 1px solid #b4b4b4;
+            //&:nth-child(odd) {
+                padding-bottom: 15px;
+                padding-top: 15px;
+            //}
         }
 
         span {

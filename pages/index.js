@@ -5,7 +5,7 @@ import Carousel from 'react-elastic-carousel'
 
 const CORREAS = {
   naranja: {
-    url: "https://res.cloudinary.com/petportrait/image/upload/v1618489930/carlosenriquedev/Orange-Isofrane-Style-Rubber-Diving-watch-bands-strap_stiojb.jpg"
+    url: "https://res.cloudinary.com/petportrait/image/upload/v1619540187/carlosenriquedev/Orange-Isofrane-Style-Rubber-Diving-watch-bands-strap2_qzom6l.jpg"
   },
   naranja2: {
     url: "https://res.cloudinary.com/petportrait/image/upload/v1619017765/carlosenriquedev/Isofrane-Style-Rubber-Diving-watch-bands-strap-6_ry9iti.jpg"
@@ -99,11 +99,11 @@ const Home = () => {
         </Carousel>
       </div>
       <div className="titulo">
-        <h1>ISOFRANE STYLE</h1>
+        <h1>BEST RUBBER</h1>
         <h2>Watch Strap</h2>
       </div>
 
-      <div className="contenedor__cta">
+      {/* <div className="contenedor__cta">
         <a href="https://www.luxwatchstraps.com/products/lux-black-rubber-diving-watch-band-steel-buckle-strap-isofrane-style">
         <div className="precio">
           <p>$59.99</p>
@@ -113,16 +113,17 @@ const Home = () => {
           </a>
         </div>
         </a>
-      </div>
+      </div> */}
 
       <div className="texto-principal">
-        <h2>Best Rubber Watch Strap</h2>
-        <p>The 1968 is a modern take on the famous 1960s ISOfrane watch straps. It has contemporary touches like silicone-free rubber that’s far softer and more durable than the strap of old.
+        {/* <h2>Best Silicon-Rubber Watch Strap</h2> */}
+        <p>The 1968 is a modern take on the famous 1960s ISOfrane watch straps. It has contemporary touches like silicone-rubber that’s far softer and more durable than the strap of old.
         </p>
         <p>This strap material and design has become very popular in water sports, this Rubber adapts, it does not damage when it spends a long time exposed to different factors such as salt water, fresh water and the sun.
         </p>
-        <p>Lux Watch Straps provides you with this ISOfrane Style model, it is resistant, durable and flexible. This silicone rubber is very durable and overall, has good mechanical properties.</p>
       </div>
+
+      <h2 className="shine-text">Shines on Spring</h2>
 
       <div className="video">
         <video loop controls>
@@ -131,38 +132,34 @@ const Home = () => {
       </div>
 
       <div className="texto-detalles">
-        <h2>Especifications</h2>
+        <h2>ESPECIFICATIONS</h2>
         <p>
-          <span>Material:</span><br></br>
-          High-Quality Silicone Rubber
+          <span>Material: </span>High-Quality Silicone-Rubber
         </p>
         <p>
-          <span>Strap Length:</span><br></br>
-          Standard length of approx. 133mm / 
-          77mm (excluding buckle) Approx 8 1/4"
+          <span>Strap Length: </span>Standard length of approx.135mm / 76mm (excluding buckle) Approx 8 1/4"
         </p>
         <p>
-          <span>Physical Strap Length:</span><br></br>
-          Approx 210mm (excluding buckle)  
+          <span>Physical Strap Length: </span>Approx 211mm (excluding buckle)
         </p>
         <p>
-          <span>Effective Strap Length:</span><br></br>
-          Approx 195mm 
+          <span>Thickness: </span>At Lug: 5.5mm & at End: 3 mm
         </p>
         <p>
-          <span>Thickness:</span><br></br>
-          At Lug: 5.5mm & at End: 3.5mm
-          316L Stainless Steel  Buckle / Double keeper
+          <span>Sizes for Classic Watch: </span>20mm, 22mm, 24mm
         </p>
         <p>
-          <span>Sizes:</span><br></br>
-          20mm, 22mm, 24mm
+          <span>Fit for Appple® Watch Series 2,3,4,5,6:</span>
+          <br></br>
+          38mm/40mm Small Case  |  Band Size: 20mm
+          <br></br>
+          42mm/44mm Large Case  |  Band Size: 24mm
         </p>
         <p>
           100% Waterproof / Water- Resistant 
         </p>
         <p>
-          Non-Allergenic/Hypoallergenic
+          Non-Allergenic / Hypoallergenic
         </p>
       </div>      
 
