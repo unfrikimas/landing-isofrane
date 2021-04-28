@@ -5,7 +5,7 @@ import Carousel from 'react-elastic-carousel'
 
 const CORREAS = {
   naranja: {
-    url: "https://res.cloudinary.com/petportrait/image/upload/v1619540187/carlosenriquedev/Orange-Isofrane-Style-Rubber-Diving-watch-bands-strap2_qzom6l.jpg"
+    url: "https://res.cloudinary.com/petportrait/image/upload/v1619620323/carlosenriquedev/Orange-Isofrane-Style-Rubber-Diving-watch-bands-strap3_ncbtmt.jpg"
   },
   naranja2: {
     url: "https://res.cloudinary.com/petportrait/image/upload/v1619017765/carlosenriquedev/Isofrane-Style-Rubber-Diving-watch-bands-strap-6_ry9iti.jpg"
@@ -99,7 +99,7 @@ const Home = () => {
         </Carousel>
       </div>
       <div className="titulo">
-        <h1>BEST RUBBER</h1>
+        <h1>Best<br></br><span>Silicon Rubber</span></h1>
         <h2>Watch Strap</h2>
       </div>
 
@@ -137,7 +137,7 @@ const Home = () => {
           <span>Material: </span>High-Quality Silicone-Rubber
         </p>
         <p>
-          <span>Strap Length: </span>Standard length of approx.135mm / 76mm (excluding buckle) Approx 8 1/4"
+          <span>Strap Length: </span>Standard length of approx. 135mm / 78mm (excluding buckle) Approx 8 3/8 in.
         </p>
         <p>
           <span>Physical Strap Length: </span>Approx 211mm (excluding buckle)
@@ -149,11 +149,11 @@ const Home = () => {
           <span>Sizes for Classic Watch: </span>20mm, 22mm, 24mm
         </p>
         <p>
-          <span>Fit for Appple® Watch Series 2,3,4,5,6:</span>
+          <span>Fit for Apple® Watch Series 1,2,3,4,5,6:</span>
           <br></br>
-          38mm/40mm Small Case  |  Band Size: 20mm
+          38mm/40mm Small Case  |  <span>Band Size: </span>20mm
           <br></br>
-          42mm/44mm Large Case  |  Band Size: 24mm
+          42mm/44mm Large Case  |  <span>Band Size: </span>24mm
         </p>
         <p>
           100% Waterproof / Water- Resistant 
@@ -163,19 +163,21 @@ const Home = () => {
         </p>
       </div>      
 
+      <h2 className="style-text">Express your Personal Style</h2>
+
       <div className="imagenes-correa">
         <Carousel itemsToScroll={1} itemsToShow={1}>
           <picture>
-            <img src="https://res.cloudinary.com/petportrait/image/upload/v1618475860/carlosenriquedev/lux_isofrane_style_watch_band-black_hgtsqn.jpg" alt="isofrane style watch straps" />
+            <img src="https://res.cloudinary.com/petportrait/image/upload/v1619623385/carlosenriquedev/lux_isofrane_style_watch_band-orange-text_ymsase.jpg" alt="isofrane style watch straps" />
           </picture>
           <picture>
-            <img src="https://res.cloudinary.com/petportrait/image/upload/v1618475860/carlosenriquedev/lux_isofrane_style_watch_band-orange_flfrsp.jpg" alt="isofrane style watch straps" />
+            <img src="https://res.cloudinary.com/petportrait/image/upload/v1619623119/carlosenriquedev/lux_isofrane_style_watch_band-black-texto3_n2gmr2.jpg" alt="isofrane style watch straps" />
           </picture>
           <picture>
-            <img src="https://res.cloudinary.com/petportrait/image/upload/v1618475860/carlosenriquedev/lux_isofrane_style_watch_band-blue_ijcpne.jpg" alt="isofrane style watch straps" />
+            <img src="https://res.cloudinary.com/petportrait/image/upload/v1619623676/carlosenriquedev/lux_isofrane_style_watch_band-blue-text_kjdoxf.jpg" alt="isofrane style watch straps" />
           </picture>
           <picture>
-            <img src="https://res.cloudinary.com/petportrait/image/upload/v1618475860/carlosenriquedev/lux_isofrane_style_watch_band-yellow_yho2wi.jpg" alt="isofrane style watch straps" />
+            <img src="https://res.cloudinary.com/petportrait/image/upload/v1619624275/carlosenriquedev/lux_isofrane_style_watch_band-yellow-text2_vmtzw5.jpg" alt="isofrane style watch straps" />
           </picture>
         </Carousel>
       </div>
