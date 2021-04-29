@@ -100,7 +100,7 @@ const Home = () => {
       </div>
       <div className="titulo">
         {/* <h1>Best<br></br><span>Silicon Rubber</span></h1> */}
-        <h1>Best silicon-rubber strap for Classic & Apple® Watch</h1>
+        <h1>Best Silicon-Rubber Strap for Classic & Apple® Watch</h1>
         {/* <h2>Watch Strap</h2> */}
       </div>
 
