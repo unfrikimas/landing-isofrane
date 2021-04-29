@@ -91,24 +91,24 @@
         }
     }
 
-    .contenedor__cta {   
+    .contenedor__cta-classic {   
         padding: 0 20px;
         
 
         .precio {
             background-color: #ec1b24;
-            padding: 25px;
+            padding: 25px 10px;
             display: flex;
             justify-content: space-around;
             align-items: center;
-            margin-top: -38px;
+            margin-top: -45px;
             box-shadow: var(--shadow-md);
 
             p {
                 font-family: "Roboto", sans-serif;
                 font-style: normal;
                 font-weight: bold;
-                font-size: 24px;
+                font-size: 18px;
                 line-height: 28px;
                 letter-spacing: -0.005em;
                 text-decoration:line-through;
@@ -119,25 +119,42 @@
                 font-family: "Roboto", sans-serif;
                 font-style: normal;
                 font-weight: bold;
-                font-size: 50px;
+                font-size: 60px;
                 line-height: 37px;
                 letter-spacing: -0.005em;
                 color: white;
                 
                 sup {
+                    padding-right: 5px;
                     font-weight: 300;
                     font-size: 24px;
                 }
             }
 
-            a {
-                font-family: "Roboto", sans-serif;
-                font-style: normal;
-                font-weight: 500;
-                font-size: 24px;
-                line-height: 28px;
-                letter-spacing: -0.005em;
-                color: white;
+            .buy-text {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                h4 {
+                    font-family: "Roboto", sans-serif;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 22px;
+                    letter-spacing: -0.005em;
+                    color: white;
+                }
+                h5 {
+                    font-family: "Roboto", sans-serif;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 22px;
+                    letter-spacing: -0.005em;
+                    color: white;
+                    text-align: center;
+                }
             }
         }
     }
@@ -301,6 +318,38 @@
         padding-left: 20px;
     }
 
+    .smart-size {
+        padding: 60px 20px 110px 20px;
+
+        h2 {
+            font-family: "Roboto", serif;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 2.4rem;
+            line-height: 45px;
+            color: #363636;
+            text-align: center;
+            padding-bottom: 30px;
+        }
+
+        .donde-talla {
+            padding: 30px 20px;
+            font-size: 2rem;
+            line-height: 40px;
+        }
+
+        picture {
+
+            img {
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+                object-position: center;
+            }
+        }
+
+    }
+
     .footer {
         position: relative;
         z-index: -1;
@@ -308,7 +357,7 @@
         background-color: #3a373e;
         padding: 105px 20px 60px 20px;
         margin: 0 auto;
-        margin-top: -45px;
+        margin-top: -48px;
 
         .badgets {
             width: 100%;

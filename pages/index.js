@@ -132,7 +132,7 @@ const Home = () => {
       </div>
 
       <div className="texto-detalles">
-        <h2>ESPECIFICATIONS</h2>
+        <h2>SPECIFICATIONS</h2>
         <p>
           <span>Material: </span>High-Quality Silicone-Rubber
         </p>
@@ -149,11 +149,11 @@ const Home = () => {
           <span>Sizes for Classic Watch: </span>20mm, 22mm, 24mm
         </p>
         <p>
-          <span>Fit for Apple® Watch Series 1,2,3,4,5,6:</span>
+          <span>Fit for Apple® Watch Series 1, 2, 3, 4, 5, 6:</span>
           <br></br>
-          38mm/40mm Small Case  |  <span>Band Size: </span>20mm
+          <span>Case size: </span>38mm/40mm  |  <span>Band Size: </span>20mm
           <br></br>
-          42mm/44mm Large Case  |  <span>Band Size: </span>24mm
+          <span>Case size: </span>42mm/44mm  |  <span>Band Size: </span>24mm
         </p>
         <p>
           100% Waterproof / Water- Resistant 
@@ -182,14 +182,42 @@ const Home = () => {
         </Carousel>
       </div>
 
-      <div className="contenedor__cta">
+      <div className="contenedor__cta-classic">
         <a href="https://www.luxwatchstraps.com/products/lux-black-rubber-diving-watch-band-steel-buckle-strap-isofrane-style">
         <div className="precio">
           <p>$59.99</p>
           <h3><sup>$</sup>26</h3>
-          <a href="https://www.luxwatchstraps.com/products/lux-black-rubber-diving-watch-band-steel-buckle-strap-isofrane-style">
-            Buy
-          </a>
+          <div className="buy-text">
+            <h4>Buy for</h4>
+            <h5>Classic Watch</h5>
+          </div>
+        </div>
+        </a>
+      </div>
+
+      <div className="smart-size">
+        <h2>Which band size is right for you Apple® Watch?</h2>
+        <picture>
+          <img src="https://res.cloudinary.com/petportrait/image/upload/v1619711072/carlosenriquedev/talla1_jgt6ww.jpg" alt="Apple watch size"/>
+        </picture>
+        <picture>
+          <img src="https://res.cloudinary.com/petportrait/image/upload/v1619713954/carlosenriquedev/talla2_xk8mzn.jpg" alt="Apple watch size"/>
+        </picture>
+        <h2 className="donde-talla">Where do i see my Case Size?</h2>
+        <picture>
+          <img src="https://res.cloudinary.com/petportrait/image/upload/v1619714754/carlosenriquedev/talla3_u8zv4k.jpg" alt="Apple watch size"/>
+        </picture>
+      </div>
+
+      <div className="contenedor__cta-classic">
+        <a href="https://www.luxwatchstraps.com/products/lux-black-rubber-diving-watch-band-steel-buckle-strap-isofrane-style">
+        <div className="precio">
+          <p>$59.99</p>
+          <h3><sup>$</sup>30</h3>
+          <div className="buy-text">
+            <h4>Buy for</h4>
+            <h5>Apple® Watch</h5>
+          </div>
         </div>
         </a>
       </div>
