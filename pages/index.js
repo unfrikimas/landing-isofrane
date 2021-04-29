@@ -99,8 +99,9 @@ const Home = () => {
         </Carousel>
       </div>
       <div className="titulo">
-        <h1>Best<br></br><span>Silicon Rubber</span></h1>
-        <h2>Watch Strap</h2>
+        {/* <h1>Best<br></br><span>Silicon Rubber</span></h1> */}
+        <h1>Best silicon-rubber strap for Classic & Apple® Watch</h1>
+        {/* <h2>Watch Strap</h2> */}
       </div>
 
       {/* <div className="contenedor__cta">
@@ -123,7 +124,7 @@ const Home = () => {
         </p>
       </div>
 
-      <h2 className="shine-text">Shines on Spring</h2>
+      <h2 className="shine-text">Shines on this Spring</h2>
 
       <div className="video">
         <video loop controls>
@@ -146,14 +147,17 @@ const Home = () => {
           <span>Thickness: </span>At Lug: 5.5mm & at End: 3 mm
         </p>
         <p>
+          <span>Buckle and Adapters: </span>316L Stainless Steel Buckle / Double keeper
+        </p>
+        <p>
           <span>Sizes for Classic Watch: </span>20mm, 22mm, 24mm
         </p>
         <p>
           <span>Fit for Apple® Watch Series 1, 2, 3, 4, 5, 6:</span>
           <br></br>
-          <span>Case size: </span>38mm/40mm  |  <span>Band Size: </span>20mm
+          38mm/40mm  |  <span>Band Size: </span>20mm
           <br></br>
-          <span>Case size: </span>42mm/44mm  |  <span>Band Size: </span>24mm
+          42mm/44mm  |  <span>Band Size: </span>24mm
         </p>
         <p>
           100% Waterproof / Water- Resistant 
@@ -196,14 +200,14 @@ const Home = () => {
       </div>
 
       <div className="smart-size">
-        <h2>Which band size is right for you Apple® Watch?</h2>
+        <h2>Which band size is right for your<br></br>Apple® Watch?</h2>
         <picture>
           <img src="https://res.cloudinary.com/petportrait/image/upload/v1619711072/carlosenriquedev/talla1_jgt6ww.jpg" alt="Apple watch size"/>
         </picture>
         <picture>
           <img src="https://res.cloudinary.com/petportrait/image/upload/v1619713954/carlosenriquedev/talla2_xk8mzn.jpg" alt="Apple watch size"/>
         </picture>
-        <h2 className="donde-talla">Where do i see my Case Size?</h2>
+        <h2 className="donde-talla">Where do I see my Case Size?</h2>
         <picture>
           <img src="https://res.cloudinary.com/petportrait/image/upload/v1619714754/carlosenriquedev/talla3_u8zv4k.jpg" alt="Apple watch size"/>
         </picture>
@@ -230,9 +234,11 @@ const Home = () => {
         <p>3-5 Business days for delivery</p>
       </div>
       <div className="logo">
-        <picture>
-          <img src="https://res.cloudinary.com/petportrait/image/upload/v1617635781/carlosenriquedev/Logo-Lux_igiqop.png" alt="Lux Watch Straps" />
-        </picture>
+        <a href="https://www.luxwatchstraps.com/" target="_blank">
+          <picture>
+            <img src="https://res.cloudinary.com/petportrait/image/upload/v1617635781/carlosenriquedev/Logo-Lux_igiqop.png" alt="Lux Watch Straps" />
+          </picture>
+        </a>
       </div>
       <div className="copyright">
         <picture>
