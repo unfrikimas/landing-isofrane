@@ -118,9 +118,9 @@ const Home = () => {
 
       <div className="texto-principal">
         {/* <h2>Best Silicon-Rubber Watch Strap</h2> */}
-        <p>The 1968 is a modern take on the famous 1960s ISOfrane watch straps. It has contemporary touches like silicone-rubber that’s far softer and more durable than the strap of old.
+        <p>The 1968 is a modern take on the famous 1960s ISOfrane watch straps. It has contemporary touches like silicone-rubber that's far softer and more durable than the older strap.
         </p>
-        <p>This strap material and design has become very popular in water sports, this Rubber adapts, it does not damage when it spends a long time exposed to different factors such as salt water, fresh water and the sun.
+        <p>This strap's material and design has become very popular in water sports, this Rubber adapts, it does not damage when it spends a long time exposed to different factors such as salt water, fresh water and the sun.
         </p>
       </div>
 
