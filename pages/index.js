@@ -160,6 +160,9 @@ const Home = () => {
           42mm/44mm  |  <span>Band Size: </span>24mm
         </p>
         <p>
+          <span>Adapter Colors: </span>Black & Silver
+        </p>
+        <p>
           100% Waterproof / Water- Resistant 
         </p>
         <p>
