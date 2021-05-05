@@ -77,7 +77,7 @@ const Home = () => {
               onClick={() => setImagenPrincipal(CORREAS.azul.url)}
             />
           </picture>
-          <picture>
+          <picture >
             <img 
               src={CORREAS.azul2.url} 
               alt="Isofrane Watch Strap"
@@ -193,7 +193,7 @@ const Home = () => {
         <a href="https://www.luxwatchstraps.com/products/lux-black-rubber-diving-watch-band-steel-buckle-strap-isofrane-style">
         <div className="precio">
           <p>$59.99</p>
-          <h3><sup>$</sup>26</h3>
+          <h3><span>$</span>26</h3>
           <div className="buy-text">
             <h4>Buy for</h4>
             <h5>Classic Watch</h5>
@@ -217,10 +217,10 @@ const Home = () => {
       </div>
 
       <div className="contenedor__cta-classic">
-        <a href="https://www.luxwatchstraps.com/products/lux-black-rubber-diving-watch-band-steel-buckle-strap-isofrane-style">
+        <a href="https://www.luxwatchstraps.com/products/apple-watch-isofrane-style-rubber-diving-watch-bands-strap">
         <div className="precio">
           <p>$59.99</p>
-          <h3><sup>$</sup>30</h3>
+          <h3><span>$</span>31</h3>
           <div className="buy-text">
             <h4>Buy for</h4>
             <h5>Apple® Watch</h5>
@@ -233,6 +233,8 @@ const Home = () => {
         <picture className="badgets">
           <img src="https://res.cloudinary.com/petportrait/image/upload/v1617635144/carlosenriquedev/badgets_cy2j5q.png" alt="badgets" />
         </picture>
+        <h3>*Adapter included</h3>
+        <h3>*Two Free Spring Bars</h3>
         <h3><sup>$</sup>2 Shipping USA</h3>
         <p>3-5 Business days for delivery</p>
       </div>
