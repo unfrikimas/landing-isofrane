@@ -1,0 +1,33 @@
+// media queries
+$sm_screen: 640px;
+$md_screen: 768px;
+$lg_screen: 1024px;
+$xl_screen: 1280px;
+$xxl_screen: 1536px;
+
+
+@mixin sm_screen {
+    @media only screen and (min-width: #{$sm_screen}) {
+        @content;
+    }
+}
+@mixin md_screen {
+    @media only screen and (min-width: #{$md_screen}) {
+        @content;
+    }
+}
+@mixin lg_screen {
+    @media only screen and (min-width: #{$lg_screen}) {
+        @content;
+    }
+}
+@mixin xl_screen {
+    @media only screen and (min-width: #{$xl_screen}) {
+        @content;
+    }
+}
+@mixin xxl_screen {
+    @media only screen and (min-width: #{$xxl_screen}) {
+        @content;
+    }
+}
