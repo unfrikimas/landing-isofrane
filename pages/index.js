@@ -46,62 +46,122 @@ const Home = () => {
             <img src={imagenPrincipal} alt="Isofrane Watch Strap" />
           </picture>
           <div className="fotos-personas">
-            <Carousel itemsToScroll={1} itemsToShow={`${size.width < "1024" ? 3 : 8}`}>
-              <picture>
-                <img 
-                  src={CORREAS.naranja.url} 
-                  alt="Isofrane Watch Strap"
-                  onClick={() => setImagenPrincipal(CORREAS.naranja.url)}
-                />
-              </picture>
-              <picture>
-                <img 
-                  src={CORREAS.naranja2.url} 
-                  alt="Isofrane Watch Strap"
-                  onClick={() => setImagenPrincipal(CORREAS.naranja2.url)}
-                />
-              </picture>
-              <picture>
-                <img 
-                  src={CORREAS.negra.url} 
-                  alt="Isofrane Watch Strap" 
-                  onClick={() => setImagenPrincipal(CORREAS.negra.url)}
-                />
-              </picture>
-              <picture>
-                <img 
-                  src={CORREAS.negra2.url} 
-                  alt="Isofrane Watch Strap" 
-                  onClick={() => setImagenPrincipal(CORREAS.negra2.url)}
-                />
-              </picture>
-              <picture>
-                <img 
-                  src={CORREAS.azul.url} 
-                  alt="Isofrane Watch Strap"
-                  onClick={() => setImagenPrincipal(CORREAS.azul.url)}
-                />
-              </picture>
-              <picture >
-                <img 
-                  src={CORREAS.azul2.url} 
-                  alt="Isofrane Watch Strap"
-                  onClick={() => setImagenPrincipal(CORREAS.azul2.url)}
-                />
-              </picture>
-              <picture>
-                <img 
-                  src={CORREAS.amarilla.url}
-                  onClick={() => setImagenPrincipal(CORREAS.amarilla.url)}
-                />
-              </picture>
-              <picture>
-                <img 
-                  src={CORREAS.amarilla2.url}
-                  onClick={() => setImagenPrincipal(CORREAS.amarilla2.url)}
-                />
-              </picture>
-            </Carousel>
+            {size.width < "1024" &&             
+              <Carousel itemsToScroll={1} itemsToShow={3}>
+                <picture>
+                  <img 
+                    src={CORREAS.naranja.url} 
+                    alt="Isofrane Watch Strap"
+                    onClick={() => setImagenPrincipal(CORREAS.naranja.url)}
+                  />
+                </picture>
+                <picture>
+                  <img 
+                    src={CORREAS.naranja2.url} 
+                    alt="Isofrane Watch Strap"
+                    onClick={() => setImagenPrincipal(CORREAS.naranja2.url)}
+                  />
+                </picture>
+                <picture>
+                  <img 
+                    src={CORREAS.negra.url} 
+                    alt="Isofrane Watch Strap" 
+                    onClick={() => setImagenPrincipal(CORREAS.negra.url)}
+                  />
+                </picture>
+                <picture>
+                  <img 
+                    src={CORREAS.negra2.url} 
+                    alt="Isofrane Watch Strap" 
+                    onClick={() => setImagenPrincipal(CORREAS.negra2.url)}
+                  />
+                </picture>
+                <picture>
+                  <img 
+                    src={CORREAS.azul.url} 
+                    alt="Isofrane Watch Strap"
+                    onClick={() => setImagenPrincipal(CORREAS.azul.url)}
+                  />
+                </picture>
+                <picture >
+                  <img 
+                    src={CORREAS.azul2.url} 
+                    alt="Isofrane Watch Strap"
+                    onClick={() => setImagenPrincipal(CORREAS.azul2.url)}
+                  />
+                </picture>
+                <picture>
+                  <img 
+                    src={CORREAS.amarilla.url}
+                    onClick={() => setImagenPrincipal(CORREAS.amarilla.url)}
+                  />
+                </picture>
+                <picture>
+                  <img 
+                    src={CORREAS.amarilla2.url}
+                    onClick={() => setImagenPrincipal(CORREAS.amarilla2.url)}
+                  />
+                </picture>
+              </Carousel>
+            }
+            {size.width > "1024" &&             
+              <Carousel itemsToScroll={1} itemsToShow={8}>
+                <picture>
+                  <img 
+                    src={CORREAS.naranja.url} 
+                    alt="Isofrane Watch Strap"
+                    onClick={() => setImagenPrincipal(CORREAS.naranja.url)}
+                  />
+                </picture>
+                <picture>
+                  <img 
+                    src={CORREAS.naranja2.url} 
+                    alt="Isofrane Watch Strap"
+                    onClick={() => setImagenPrincipal(CORREAS.naranja2.url)}
+                  />
+                </picture>
+                <picture>
+                  <img 
+                    src={CORREAS.negra.url} 
+                    alt="Isofrane Watch Strap" 
+                    onClick={() => setImagenPrincipal(CORREAS.negra.url)}
+                  />
+                </picture>
+                <picture>
+                  <img 
+                    src={CORREAS.negra2.url} 
+                    alt="Isofrane Watch Strap" 
+                    onClick={() => setImagenPrincipal(CORREAS.negra2.url)}
+                  />
+                </picture>
+                <picture>
+                  <img 
+                    src={CORREAS.azul.url} 
+                    alt="Isofrane Watch Strap"
+                    onClick={() => setImagenPrincipal(CORREAS.azul.url)}
+                  />
+                </picture>
+                <picture >
+                  <img 
+                    src={CORREAS.azul2.url} 
+                    alt="Isofrane Watch Strap"
+                    onClick={() => setImagenPrincipal(CORREAS.azul2.url)}
+                  />
+                </picture>
+                <picture>
+                  <img 
+                    src={CORREAS.amarilla.url}
+                    onClick={() => setImagenPrincipal(CORREAS.amarilla.url)}
+                  />
+                </picture>
+                <picture>
+                  <img 
+                    src={CORREAS.amarilla2.url}
+                    onClick={() => setImagenPrincipal(CORREAS.amarilla2.url)}
+                  />
+                </picture>
+              </Carousel>
+            }
           </div>
         </div>
         <div className="hero-text">
