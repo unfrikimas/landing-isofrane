@@ -167,6 +167,61 @@
                     padding-bottom: 0;
                 }
             }
+
+            .hero-buttons {
+                padding: 20px 0px 20px 0px;
+
+                @include lg_screen {
+                    padding: 0;
+                    display: flex;
+                }
+
+                .contenedor__cta-classic {   
+                    padding-top: 0;
+                    margin-bottom: 70px;
+                    @include lg_screen {
+                        max-width: 600px;
+                        margin: 0 auto;
+                        padding-top: 2rem;
+                    }
+            
+                    .precio {
+                        background-color: #ec1b24;
+                        padding: 15px 25px;
+                        display: flex;
+                        justify-content: space-around;
+                        align-items: center;
+                        box-shadow: var(--shadow-md);
+            
+                        .buy-text {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            h4 {
+                                font-family: "Roboto", sans-serif;
+                                font-style: normal;
+                                font-weight: 600;
+                                font-size: 18px;
+                                line-height: 25px;
+                                letter-spacing: -0.005em;
+                                color: white;
+                            }
+                            h5 {
+                                font-family: "Roboto", sans-serif;
+                                font-style: normal;
+                                font-weight: 600;
+                                font-size: 18px;
+                                line-height: 25px;
+                                letter-spacing: -0.005em;
+                                color: white;
+                                text-align: center;
+                            }
+                        }
+                    }
+                }
+
+            }
     
         }
     }

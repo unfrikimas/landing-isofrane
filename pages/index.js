@@ -175,6 +175,28 @@ const Home = () => {
             <p>This strap's material and design has become very popular in water sports, this Rubber adapts, it does not damage when it spends a long time exposed to different factors such as salt water, fresh water and the sun.
             </p>
           </div>
+          <div className="hero-buttons">
+            <div className="contenedor__cta-classic">
+              <a href="https://www.luxwatchstraps.com/products/lux-black-rubber-diving-watch-band-steel-buckle-strap-isofrane-style">
+              <div className="precio">
+                <div className="buy-text">
+                  <h4>Buy for</h4>
+                  <h5>Classic Watch</h5>
+                </div>
+              </div>
+              </a>
+            </div>            
+            <div className="contenedor__cta-classic">
+              <a href="https://www.luxwatchstraps.com/products/apple-watch-isofrane-style-rubber-diving-watch-bands-strap">
+              <div className="precio">
+                <div className="buy-text">
+                  <h4>Buy for</h4>
+                  <h5>Apple<sup>®</sup> Watch</h5>
+                </div>
+              </div>
+              </a>
+            </div>            
+          </div>
         </div>
       </div>
 
